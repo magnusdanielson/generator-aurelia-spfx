@@ -1,6 +1,6 @@
 {
   "name": "generator-aurelia-spfx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modifies spfx webparts so they run with Aurelia2",
   "homepage": "https://www.dunite.se/news",
   "author": {

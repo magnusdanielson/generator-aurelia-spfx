@@ -94,6 +94,15 @@ module.exports = class extends Generator {
 
         }
 
+        var tsconfig = this.fs.readJSON('./tsconfig.json');
+        tsconfig.compilerOptions.rootDir = "autemp";
+        tsconfig.compilerOptions.target = "esnext";
+        tsconfig.include =  [
+          "autemp/**/*.ts"
+        ];
+
+        this.fs.writeJSON('./tsconfig.json',tsconfig);
+        
         this.fs.copy(
           this.templatePath('copy-static-assets.json'),
           this.destinationPath('config\\copy-static-assets.json')
