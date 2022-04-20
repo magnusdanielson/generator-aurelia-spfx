@@ -1,0 +1,28 @@
+<section class="${styles.myTest} ${!!context.sdks.microsoftTeams ? styles.teams : ''}">
+    <div class="${styles.welcome}">
+        <img alt=""
+            src="${imageUrl}"
+            class="${styles.welcomeImage}" />
+        <h2>Well done, ${context.pageContext.user.displayName}!</h2>
+        <div>${_environmentMessage}</div>
+        <div>Web part property value: <strong>${properties.description}</strong></div>
+        <div class="my">Message from <%= KebabClassName %>my-component is ${message}</div>
+    </div>
+    <div>
+        <h3>Welcome to SharePoint Framework!</h3>
+        <p>
+            The SharePoint Framework (SPFx) is a extensibility model for Microsoft Viva, Microsoft Teams and SharePoint.
+            It's the easiest way to extend Microsoft 365 with automatic Single Sign On, automatic hosting and industry
+            standard tooling.
+        </p>
+        <h4>Learn more about SPFx development:</h4>
+        <ul class="${styles.links}">
+            <li><a href="https://aka.ms/spfx" target="_blank">SharePoint Framework Overview</a></li>
+            <li><a href="https://aka.ms/spfx-yeoman-graph" target="_blank">Use Microsoft Graph in your solution</a></li>
+            <li><a href="https://aka.ms/spfx-yeoman-teams" target="_blank">Build for Microsoft Teams using SharePoint
+                    Framework</a></li>
+            <li><a href="https://docs.aurelia.io/" target="_blank">Learn more about Aurelia2</a></li>
+            <li><a href="https://www.dunite.se/news" target="_blank">News from Dunite</a></li>
+        </ul>
+    </div>
+</section>
