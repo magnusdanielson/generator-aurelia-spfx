@@ -21,7 +21,7 @@ module.exports = class extends Generator {
     // Have Yeoman greet the user.
     this.log(
       yosay(
-        `Welcome to the cat\'s meow ${chalk.red('au2-generator')} generator!`
+        `Welcome to the cat\'s meow ${chalk.red('aurelia-spfx')} generator!`
       )
     );
 
