@@ -78,5 +78,9 @@
     "pretest": "eslint .",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/magnusdanielson/generator-aurelia-spfx.git"
+  },
   "license": "MIT"
 }
