@@ -3,17 +3,17 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-au-2-generator using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-aurelia-spfx using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-au-2-generator
+npm install -g generator-aurelia-spfx
 ```
 
 Then generate your new project:
 
 ```bash
-yo au-2-generator
+yo aurelia-spfx
 ```
 
 ## Getting To Know Yeoman
