@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "ES2017",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "noUnusedLocals": false,
+    "declaration":false
+   
+
+ 
+  },
+  "include": [
+    "srcau"
+  ],
+  "files": [
+    "srcau/html.d.ts"
+  ]
+}
